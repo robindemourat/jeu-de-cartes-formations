@@ -37,7 +37,7 @@ class App extends Component {
         <header className="App-header">
           <h1>Cartes de jeu sur les perceptions de l'enseignement</h1>
         </header>
-        <div>
+        <div className="cards-container">
           {
             cards.map((card, index) => (
               <Card key={index} card={card} />

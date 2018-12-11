@@ -6,17 +6,19 @@ Prérequis :
 * avoir installé node
 * avoir accès au terminal de votre ordinateur
 
-Puis :
+Puis dans le terminal de votre ordinateur :
 
 ```
-
+git clone https://github.com/robindemourat/jeu-de-cartes-formations
+cd jeu-de-cartes-formations
+npm install
 ```
 
 
 # test et développement
 
 ```
-npm run dev
+npm run start
 ```
 
 # déploiement
