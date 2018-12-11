@@ -1,0 +1,13 @@
+
+
+@media print{
+  header{
+    display: none;
+  }
+
+  .card{
+    border: 1px solid black;
+    width: 50%;
+    height: 50%;
+  }
+}
